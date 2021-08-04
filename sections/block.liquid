@@ -3,7 +3,7 @@
        <h1>{{ section.settings.text-box }}</h1>
 
        <ul>
-         {% for block in section.block %}
+         {% for block in section.blocks %}
              <li class="images">
                <a href="{{ block.settings.link }}">
                  <img src="{{ block.settings.linkimage | img_url : '150px' }}" alt="">
