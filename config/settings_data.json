@@ -310,10 +310,63 @@
           "text": "<p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used.<\/p>",
           "text-image": "shopify:\/\/shop_images\/social-media-profile-photos-3.jpg"
         }
+      },
+      "1628074851bbd9f957": {
+        "type": "block",
+        "blocks": {
+          "1628074851bbd9f957-0": {
+            "type": "select",
+            "settings": {
+              "link": "",
+              "linkimage": "shopify:\/\/shop_images\/9.jpg"
+            }
+          },
+          "1bf5a793-a476-4535-b77f-550d3ec60a63": {
+            "type": "select",
+            "settings": {
+              "link": "",
+              "linkimage": "shopify:\/\/shop_images\/6.jpg"
+            }
+          },
+          "f032a1af-5fc1-4a60-9984-b1042a764d05": {
+            "type": "select",
+            "settings": {
+              "link": "",
+              "linkimage": "shopify:\/\/shop_images\/1_5540781d-ff1d-4021-b766-91e50d9b32dc.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "1628074851bbd9f957-0",
+          "1bf5a793-a476-4535-b77f-550d3ec60a63",
+          "f032a1af-5fc1-4a60-9984-b1042a764d05"
+        ],
+        "settings": {
+          "text-box": "Title"
+        }
+      },
+      "1628074879e6628307": {
+        "type": "block",
+        "disabled": true,
+        "blocks": {
+          "1628074879e6628307-0": {
+            "type": "select",
+            "settings": {
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1628074879e6628307-0"
+        ],
+        "settings": {
+          "text-box": "Custom Section"
+        }
       }
     },
     "content_for_index": [
       "hero-1",
+      "1628072447070b1e54",
       "feature-row",
       "1627994994638bbd0c",
       "collection",
@@ -323,7 +376,8 @@
       "hero-2",
       "quotes",
       "image-bar",
-      "1628072447070b1e54"
+      "1628074851bbd9f957",
+      "1628074879e6628307"
     ]
   },
   "presets": {
