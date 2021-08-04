@@ -331,7 +331,7 @@
           "f032a1af-5fc1-4a60-9984-b1042a764d05": {
             "type": "select",
             "settings": {
-              "link": "",
+              "link": "shopify:\/\/collections\/all",
               "linkimage": "shopify:\/\/shop_images\/1_5540781d-ff1d-4021-b766-91e50d9b32dc.jpg"
             }
           }
