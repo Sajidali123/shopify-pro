@@ -1,0 +1,59 @@
+<div class="brand-container">
+  <div class="container">
+       <h1>{{ sections.settings.text-box }}</h1>
+
+       <ul>
+         {% for block in section.block %}
+             <li class="images">
+               <a href="{{ block.settings.link }}">
+                 <img src="{{ block.settings.linkimage | img_url : '150px' }}" alt="">
+               </a>
+             </li>
+         {% endfor %}
+       </ul>
+  </div>
+</div>
+
+{% schema %}
+  {
+      "name": "CTA Blocks",
+      "max_blocks": 3,
+      "settings": [
+          {
+              "id": "text-box",
+              "type": "text",
+              "label": "Heading",
+              "default": "Title"
+          }
+      ],
+      "blocks": [
+          {
+              "type": "select",
+              "name": "select",
+              "settings": [
+                  {
+                    "id": "link",
+                    "type": "url",
+                    "label": "Button Link"
+                  },
+                  {
+                    "id": "linkimage",
+                    "type": "image_picker",
+                    "label": "Add Custom Image"
+                  }
+              ]
+          }
+      ],
+      "presets": [
+          {
+              "name" : "Call to action Blocks",
+              "category": "call to action",
+              "blocks":[
+                  {
+                      "type": "select"
+                  }
+              ]
+          }
+      ]
+  }
+{% endschema %}
