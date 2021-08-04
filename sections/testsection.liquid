@@ -1,6 +1,30 @@
 {% schema %}
     {
-        "name":"Section Name",
-        "settings": []
+        "name":"Profile Section",
+        "settings": [
+            {
+                "id": "text-box",
+                "type": "text",
+                "label" : "Name",
+                "default": "Title"
+            },
+             {
+                "id": "text",
+                "type": "richtext",
+                "label" : "Description",
+                "default": "<p>Add your text here</p>"
+            },
+             {
+                "id": "text-image",
+                "type": "image_picker",
+                "label" : "Upload Image"
+            }
+        ],
+        "presets": [
+            {
+                "name": "Text Box",
+                "category": "Text Box"
+            }
+        ]
     }
 {% endschema %}
