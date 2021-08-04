@@ -307,7 +307,7 @@
         "type": "testsection",
         "settings": {
           "text-box": "This is test",
-          "text": "<p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.<\/p>",
+          "text": "<p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used.<\/p>",
           "text-image": "shopify:\/\/shop_images\/social-media-profile-photos-3.jpg"
         }
       }
